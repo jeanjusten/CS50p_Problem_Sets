@@ -1017,11 +1017,6 @@ similar to this one for John Harvard, with these specifications:<br>
 <br>No need to submit any PDFs with your code. But, if you would like, you’re welcome (but not expected) to share a shirtificate with your name on it in any of [CS50’s communities](https://cs50.harvard.edu/python/2022/communities/)!
 
 ___
-<!--Links-->
-## :large_orange_diamond: Links
-### :arrow_forward: Harvard edX
-You can acess all Harvard edX courses by visiting the link:
-[edx.org](https://www.edx.org/)
 
 ### :arrow_forward: Final Project
 > Once you have solved each of the course’s problem sets, it’s time to implement your final project, a Python program of your very own! The design and implementation of your project is entirely up to you, albeit subject to these requirements:<br>
