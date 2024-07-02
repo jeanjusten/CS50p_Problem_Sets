@@ -17,7 +17,7 @@ In this repository, you will find all the CS50p's Introduction to Programming wi
     - [2.1.5 Tip Calculator](#small_red_triangle_down-tip-calculator)
   - [2.2 Set 1](#arrow_forward-first-set)
     - [2.2.1 Home Federal Savings Bank](#small_red_triangle_down-home-federal-savings-bank)
-    - [2.2.2 Deep Tought](#small_red_triangle_down-deep-tought)
+    - [2.2.2 Deep Thought](#small_red_triangle_down-deep-thought)
     - [2.2.3 File Extensions](#small_red_triangle_down-file-extensions)
     - [2.2.4 Math Interpreter](#small_red_triangle_down-math-interpreter)
     - [2.2.5 Meal Time](#small_red_triangle_down-meal-time)
@@ -31,7 +31,7 @@ In this repository, you will find all the CS50p's Introduction to Programming wi
     - [2.4.1 Fuel Gauge](#small_red_triangle_down-fuel-gauge)
     - [2.4.2 Grocery List](#small_red_triangle_down-grocery-list)
     - [2.4.3 Outdated](#small_red_triangle_down-outdated)
-    - [2.4.4 Felipe's Taqueria](#small_red_triangle_down-felipe-taqueria)
+    - [2.4.4 Felipe's Taqueria](#small_red_triangle_down-felipes-taqueria)
   - [2.5 Set 4](#arrow_forward-fourth-set)
     - [2.5.1 Adieu, Adieu](#small_red_triangle_down-adieu-adieu)
     - [2.5.2 Bitcoin Price Index](#small_red_triangle_down-bitcoin-price-index)
@@ -45,10 +45,10 @@ In this repository, you will find all the CS50p's Introduction to Programming wi
     - [2.6.3 Re-requesting a Vanity Plate](#small_red_triangle_down-re-requesting-a-vanity-plate)
     - [2.6.4 Testing my Twttr](#small_red_triangle_down-testing-my-twttr)
   - [2.7 Set 6](#arrow_forward-sixth-set)
-    - [2.7.1 Lines of Code](#small_red_triangle_down-test-lines-of-code)
-    - [2.7.2 Pizza Py](#small_red_triangle_down-test-pizza-py)
-    - [2.7.3 Scourgify](#small_red_triangle_down-test-scourgify)
-    - [2.7.4 CS50 P-Shirt](#small_red_triangle_down-test-cs50-pshirt)
+    - [2.7.1 Lines of Code](#small_red_triangle_down-lines-of-code)
+    - [2.7.2 Pizza Py](#small_red_triangle_down-pizza-py)
+    - [2.7.3 Scourgify](#small_red_triangle_down-scourgify)
+    - [2.7.4 CS50 P-Shirt](#small_red_triangle_down-cs50-p-shirt)
   - [2.8 Set 7](#arrow_forward-seventh-set)
     - [2.8.1 NUMB3RS](#small_red_triangle_down-numb3rs)
     - [2.8.2 Response Validation](#small_red_triangle_down-response-validation)
@@ -62,8 +62,8 @@ In this repository, you will find all the CS50p's Introduction to Programming wi
   - [2.10 Final Project](#arrow_forward-final-project)
     - [2.10.1 Certificate Generator](#small_red_triangle_down-certificate-generator)
 - [3. Links](#large_orange_diamond-links)
-  - [3.1. Harvard edX](#arrow_forwardharvard-edx)
-  - [3.2. My Final Project](#arrow_forward-my-final-project)
+  - [3.1. Harvard edX](#arrow_forward-harvard-edx)
+  - [3.2. Final Project](#arrow_forward-final-project)
 - [4. Etcetera](#large_orange_diamond-etcetera)
   - [4.1 About](#arrow_forward-about)
   - [4.2 Licenses](#arrow_forward-licenses)
@@ -701,7 +701,7 @@ with last name and first name separated by a comma and space. Not ideal if Hogwa
 <br>- Converts that input to that output, splitting each name into a first name and last name. Assume that each student will have both a first name and last name.<br>
 <br>If the user does not provide exactly two command-line arguments, or if the first cannot be read, the program should exit via sys.exit with an error message.
 
-### :small_red_triangle_down: CS50 P-Shirt
+### :small_red_triangle_down: CS50 P Shirt
 > After finishing CS50 itself, students on campus at Harvard traditionally receive their very own I took CS50 t-shirt. No need to buy one online, but like to try one on virtually?<br>
 <br>In a file called shirt.py, implement a program that expects exactly two command-line arguments:<br>
 <br>-in sys.argv[1], the name (or path) of a JPEG or PNG to read (i.e., open) as input
@@ -1023,10 +1023,68 @@ ___
 You can acess all Harvard edX courses by visiting the link:
 [edx.org](https://www.edx.org/)
 
-### :arrow_forward: My Final Project
-The final challenge in the course, was to develop an application by myself.
+### :arrow_forward: Final Project
+> Once you have solved each of the course’s problem sets, it’s time to implement your final project, a Python program of your very own! The design and implementation of your project is entirely up to you, albeit subject to these requirements:<br>
+<br>- Your project must be implemented in Python.
+<br>- Your project must have a main function and three or more additional functions. At least three of those additional functions must be accompanied by tests that can be executed with pytest.
+<br>- Your main function must be in a file called project.py, which should be in the “root” (i.e., top-level folder) of your project.
+<br>- Your 3 required custom functions other than main must also be in project.py and defined at the same indentation level as main (i.e., not nested under any classes or functions).
+<br>- Your test functions must be in a file called test_project.py, which should also be in the “root” of your project. Be sure they have the same name as your custom functions, prepended with test_ (test_custom_function, for example, where custom_function is a function you’ve implemented in project.py).
+<br>- You are welcome to implement additional classes and functions as you see fit beyond the minimum requirement.
+<br>- Implementing your project should entail more time and effort than is required by each of the course’s problem sets.
+<br>- Any pip-installable libraries that your project requires must be listed, one per line, in a file called requirements.txt in the root of your project.<br>
+<br>Example Project Structures:
+
+> project.py
+
+    def main():
+        ...
+    
+    
+    def function_1():
+        ...
+    
+    
+    def function_2():
+        ...
+    
+    
+    def function_n():
+        ...
+    
+    
+    if __name__ == "__main__":
+        main()
+
+> test_project.py
+
+    def test_function_1():
+        ...
+    
+    
+    def test_function_2():
+        ...
+    
+    
+    def test_function_n():
+        ...
 
 ### :small_red_triangle_down: Certificate Generator
+
+<strong>Certificate Generator</strong><br>
+![certificate generator banner_1.gif](https://github.com/jeanjusten/CS50P_Python_Final_Project/blob/main/certificate%20generator%20banner_1.gif?raw=true)
+
+> [!NOTE]
+> To know more about my Final Project, the Certificate Generator, you can check out the [3.2 My Final Project](#arrow_forward-my-final-project) Links section to visit its repository. 
+
+___
+<!--Links-->
+## :large_orange_diamond: Links
+### :arrow_forward: Harvard edX
+You can acess all Harvard edX courses by visiting the link:
+[edx.org](https://www.edx.org/)
+
+### :small_red_triangle_down: My Final Project
 
 - ![Jean Justen's Certificate Generator - GitHub Repository](https://github.com/jeanjusten/CS50P_Python_Final_Project)
 
