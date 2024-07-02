@@ -1,5 +1,5 @@
 <!--Title Image-->
-![title_img.gif](https://github.com/jeanjusten/CS50p_Problem_Sets/blob/main/title_img.gif?raw=true)
+![img_title.gif](https://github.com/jeanjusten/CS50p_Problem_Sets/blob/main/img_title.gif?raw=true)
 
  # :mortar_board: Python Problem Sets - Harvard's CS50p Introduction to Programming with Python
 In this repository, you will find all the CS50p's Introduction to Programming with Python problem sets i had to solve to finish the Harvard edX course.<br>
