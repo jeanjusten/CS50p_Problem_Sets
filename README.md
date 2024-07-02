@@ -1019,6 +1019,8 @@ similar to this one for John Harvard, with these specifications:<br>
 ___
 
 ### :arrow_forward: Final Project
+The final task for the CS50p's Introduction with Python course.
+
 > Once you have solved each of the course’s problem sets, it’s time to implement your final project, a Python program of your very own! The design and implementation of your project is entirely up to you, albeit subject to these requirements:<br>
 <br>- Your project must be implemented in Python.
 <br>- Your project must have a main function and three or more additional functions. At least three of those additional functions must be accompanied by tests that can be executed with pytest.
